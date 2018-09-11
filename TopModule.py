@@ -14,4 +14,4 @@ print("You chose: ", handle )
 
 urls = MP1Tweets.grab(handle)
 
-MP1Tweets.retrieve()
+MP1Tweets.retrieve(urls)
