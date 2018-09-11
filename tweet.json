@@ -1,0 +1,3697 @@
+{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Sep 10 21:17:31 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1039261612652154885",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/sTSVbGsYGS"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 2323,
+    "favorited": false,
+    "geo": null,
+    "id": 1039261612652154885,
+    "id_str": "1039261612652154885",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 255,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "You need eleven players on the field. But so many more to become invinsible. Are you one of us? Are you Sweden\u2019s ne\u2026 https://t.co/sTSVbGsYGS",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Sep 09 22:40:44 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 259925559,
+                "id_str": "259925559",
+                "indices": [
+                    0,
+                    11
+                ],
+                "name": "Novak Djokovic",
+                "screen_name": "DjokerNole"
+            }
+        ]
+    },
+    "favorite_count": 3401,
+    "favorited": false,
+    "geo": null,
+    "id": 1038920166438916096,
+    "id_str": "1038920166438916096",
+    "in_reply_to_screen_name": "DjokerNole",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 259925559,
+    "in_reply_to_user_id_str": "259925559",
+    "is_quote_status": false,
+    "lang": "tl",
+    "place": null,
+    "retweet_count": 896,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "@DjokerNole idemoooo",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Sep 09 05:52:04 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    38,
+                    53
+                ],
+                "text": "PerfectReality"
+            },
+            {
+                "indices": [
+                    54,
+                    68
+                ],
+                "text": "SamsungQLEDTV"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/kBFgxyFLz8",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1038666325730578432/video/1",
+                "id": 1038666297796583429,
+                "id_str": "1038666297796583429",
+                "indices": [
+                    69,
+                    92
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1038666297796583429/pu/img/eOTFhg7_hpiDoEGS.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1038666297796583429/pu/img/eOTFhg7_hpiDoEGS.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/kBFgxyFLz8"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/kBFgxyFLz8",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1038666325730578432/video/1",
+                "id": 1038666297796583429,
+                "id_str": "1038666297796583429",
+                "indices": [
+                    69,
+                    92
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1038666297796583429/pu/img/eOTFhg7_hpiDoEGS.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1038666297796583429/pu/img/eOTFhg7_hpiDoEGS.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/kBFgxyFLz8",
+                "video_info": {
+                    "aspect_ratio": [
+                        1,
+                        1
+                    ],
+                    "duration_millis": 3280,
+                    "variants": [
+                        {
+                            "bitrate": 1280000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1038666297796583429/pu/vid/720x720/hx9WnrRTQpdw5Oa8.mp4?tag=5"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1038666297796583429/pu/vid/480x480/XZyvktjHLjKvM4sT.mp4?tag=5"
+                        },
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1038666297796583429/pu/pl/VTG-c2wx-4npNk3v.m3u8?tag=5"
+                        },
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1038666297796583429/pu/vid/240x240/4JBAbamfIFr6hEi7.mp4?tag=5"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 10746,
+    "favorited": false,
+    "geo": null,
+    "id": 1038666325730578432,
+    "id_str": "1038666325730578432",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1082,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "I have met my equal, Samsung QLED 8K \n#PerfectReality #SamsungQLEDTV https://t.co/kBFgxyFLz8",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue Sep 04 20:10:10 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 845839363,
+                "id_str": "845839363",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Volvo Car Sverige",
+                "screen_name": "VolvoCarSverige"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1037070335793741824,
+    "id_str": "1037070335793741824",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "sv",
+    "place": null,
+    "retweet_count": 54,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue Sep 04 07:16:46 +0000 2018",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1036875703323639808",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/ELYxTNrREY"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 826,
+        "favorited": false,
+        "geo": null,
+        "id": 1036875703323639808,
+        "id_str": "1036875703323639808",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "sv",
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 54,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "text": "Det beh\u00f6vs elva spelare p\u00e5 planen, men s\u00e5 m\u00e5nga fler f\u00f6r att bli oslagbara. Nu \u00f6ppnar vi anm\u00e4lan f\u00f6r \u00e5rets Number 1\u2026 https://t.co/ELYxTNrREY",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Sep 25 16:35:34 +0000 2012",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "V\u00e4lkommen till Volvo Car Sveriges officiella Twitterkonto. #madebysweden http://t.co/0TNLxxAF0d",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "instagram.com/volvocarsverige",
+                            "expanded_url": "http://instagram.com/volvocarsverige",
+                            "indices": [
+                                73,
+                                95
+                            ],
+                            "url": "http://t.co/0TNLxxAF0d"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "volvocars.se",
+                            "expanded_url": "http://www.volvocars.se",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/H2S5U3y1J7"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2501,
+            "follow_request_sent": false,
+            "followers_count": 46713,
+            "following": false,
+            "friends_count": 96,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 845839363,
+            "id_str": "845839363",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "sv",
+            "listed_count": 62,
+            "location": "Sverige",
+            "name": "Volvo Car Sverige",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/845839363/1528564161",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/505011612042792961/IYSLQXY__normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/505011612042792961/IYSLQXY__normal.jpeg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "VolvoCarSverige",
+            "statuses_count": 3364,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://t.co/H2S5U3y1J7",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @VolvoCarSverige: Det beh\u00f6vs elva spelare p\u00e5 planen, men s\u00e5 m\u00e5nga fler f\u00f6r att bli oslagbara. Nu \u00f6ppnar vi anm\u00e4lan f\u00f6r \u00e5rets Number 10-s\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Aug 29 18:20:06 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    61,
+                    73
+                ],
+                "text": "GalaxyNote9"
+            },
+            {
+                "indices": [
+                    74,
+                    83
+                ],
+                "text": "Fortnite"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/doC6vS7r5r",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1034868307868889088/video/1",
+                "id": 1034868279016284160,
+                "id_str": "1034868279016284160",
+                "indices": [
+                    84,
+                    107
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1034868279016284160/pu/img/t9bX8wWQ_xkSS9Yw.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1034868279016284160/pu/img/t9bX8wWQ_xkSS9Yw.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/doC6vS7r5r"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 425871040,
+                "id_str": "425871040",
+                "indices": [
+                    8,
+                    21
+                ],
+                "name": "Fortnite",
+                "screen_name": "FortniteGame"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/doC6vS7r5r",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1034868307868889088/video/1",
+                "id": 1034868279016284160,
+                "id_str": "1034868279016284160",
+                "indices": [
+                    84,
+                    107
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1034868279016284160/pu/img/t9bX8wWQ_xkSS9Yw.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1034868279016284160/pu/img/t9bX8wWQ_xkSS9Yw.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/doC6vS7r5r",
+                "video_info": {
+                    "aspect_ratio": [
+                        1,
+                        1
+                    ],
+                    "duration_millis": 9960,
+                    "variants": [
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1034868279016284160/pu/pl/w_799eH_dgGK2FkQ.m3u8?tag=5"
+                        },
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1034868279016284160/pu/vid/240x240/V5IcW06FBJQuRNB8.mp4?tag=5"
+                        },
+                        {
+                            "bitrate": 1280000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1034868279016284160/pu/vid/720x720/FKrFGoelZM_6LHex.mp4?tag=5"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1034868279016284160/pu/vid/480x480/kqpiiQn3XwVQfHyP.mp4?tag=5"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 9518,
+    "favorited": false,
+    "geo": null,
+    "id": 1034868307868889088,
+    "id_str": "1034868307868889088",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1095,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Playing @FortniteGame on my new super powerful Galaxy Note 9\n#GalaxyNote9 #Fortnite https://t.co/doC6vS7r5r",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Aug 27 16:49:51 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/8CUjLyBs7Y",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1034120820610613248/photo/1",
+                "id": 1034120816303063041,
+                "id_str": "1034120816303063041",
+                "indices": [
+                    16,
+                    39
+                ],
+                "media_url": "http://pbs.twimg.com/media/DlnvZ0aUwAEfCtR.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DlnvZ0aUwAEfCtR.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 854,
+                        "resize": "fit",
+                        "w": 683
+                    },
+                    "medium": {
+                        "h": 854,
+                        "resize": "fit",
+                        "w": 683
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 544
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/8CUjLyBs7Y"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 23011345,
+                "id_str": "23011345",
+                "indices": [
+                    6,
+                    15
+                ],
+                "name": "LA Galaxy",
+                "screen_name": "LAGalaxy"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/8CUjLyBs7Y",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1034120820610613248/photo/1",
+                "id": 1034120816303063041,
+                "id_str": "1034120816303063041",
+                "indices": [
+                    16,
+                    39
+                ],
+                "media_url": "http://pbs.twimg.com/media/DlnvZ0aUwAEfCtR.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DlnvZ0aUwAEfCtR.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 854,
+                        "resize": "fit",
+                        "w": 683
+                    },
+                    "medium": {
+                        "h": 854,
+                        "resize": "fit",
+                        "w": 683
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 544
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/8CUjLyBs7Y"
+            }
+        ]
+    },
+    "favorite_count": 44788,
+    "favorited": false,
+    "geo": null,
+    "id": 1034120820610613248,
+    "id_str": "1034120820610613248",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 3631,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Sharp @LAGalaxy https://t.co/8CUjLyBs7Y",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Aug 19 18:51:23 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/paERAeDMOh",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1031252302450098177/photo/1",
+                "id": 1031252295726460928,
+                "id_str": "1031252295726460928",
+                "indices": [
+                    96,
+                    119
+                ],
+                "media_url": "http://pbs.twimg.com/media/Dk--f8iU8AAkj2f.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Dk--f8iU8AAkj2f.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 955,
+                        "resize": "fit",
+                        "w": 1396
+                    },
+                    "medium": {
+                        "h": 821,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 465,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/paERAeDMOh"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 85452649,
+                "id_str": "85452649",
+                "indices": [
+                    16,
+                    26
+                ],
+                "name": "Ed Sheeran",
+                "screen_name": "edsheeran"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/paERAeDMOh",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1031252302450098177/photo/1",
+                "id": 1031252295726460928,
+                "id_str": "1031252295726460928",
+                "indices": [
+                    96,
+                    119
+                ],
+                "media_url": "http://pbs.twimg.com/media/Dk--f8iU8AAkj2f.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Dk--f8iU8AAkj2f.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 955,
+                        "resize": "fit",
+                        "w": 1396
+                    },
+                    "medium": {
+                        "h": 821,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 465,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/paERAeDMOh"
+            }
+        ]
+    },
+    "favorite_count": 56095,
+    "favorited": false,
+    "geo": null,
+    "id": 1031252302450098177,
+    "id_str": "1031252302450098177",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 7749,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "When the Genius @edsheeran finally met God. Thank you for an unforgettable concert at Rose bowl https://t.co/paERAeDMOh",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Aug 15 17:59:02 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    59,
+                    80
+                ],
+                "text": "padelzenterj\u00f6nk\u00f6ping"
+            },
+            {
+                "indices": [
+                    81,
+                    92
+                ],
+                "text": "comingsoon"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Aq9HP3gUOS",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1029789579421732864/photo/1",
+                "id": 1029789575835672576,
+                "id_str": "1029789575835672576",
+                "indices": [
+                    99,
+                    122
+                ],
+                "media_url": "http://pbs.twimg.com/media/DkqMKcUV4AAphY6.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DkqMKcUV4AAphY6.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 362,
+                        "resize": "fit",
+                        "w": 512
+                    },
+                    "medium": {
+                        "h": 362,
+                        "resize": "fit",
+                        "w": 512
+                    },
+                    "small": {
+                        "h": 362,
+                        "resize": "fit",
+                        "w": 512
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/Aq9HP3gUOS"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Aq9HP3gUOS",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1029789579421732864/photo/1",
+                "id": 1029789575835672576,
+                "id_str": "1029789575835672576",
+                "indices": [
+                    99,
+                    122
+                ],
+                "media_url": "http://pbs.twimg.com/media/DkqMKcUV4AAphY6.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DkqMKcUV4AAphY6.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 362,
+                        "resize": "fit",
+                        "w": 512
+                    },
+                    "medium": {
+                        "h": 362,
+                        "resize": "fit",
+                        "w": 512
+                    },
+                    "small": {
+                        "h": 362,
+                        "resize": "fit",
+                        "w": 512
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/Aq9HP3gUOS"
+            }
+        ]
+    },
+    "favorite_count": 1886,
+    "favorited": false,
+    "geo": null,
+    "id": 1029789579421732864,
+    "id_str": "1029789579421732864",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "sv",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 168,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Congratulations J\u00f6nk\u00f6ping you are next to get PADEL ZENTER #padelzenterj\u00f6nk\u00f6ping #comingsoon #2019 https://t.co/Aq9HP3gUOS",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue Aug 07 03:56:08 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/OpoBWrrLQj",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1026678353099554818/video/1",
+                "id": 1026678318454591488,
+                "id_str": "1026678318454591488",
+                "indices": [
+                    14,
+                    37
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1026678318454591488/pu/img/GvcXxtn0CZqVBLb0.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1026678318454591488/pu/img/GvcXxtn0CZqVBLb0.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/OpoBWrrLQj"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/OpoBWrrLQj",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1026678353099554818/video/1",
+                "id": 1026678318454591488,
+                "id_str": "1026678318454591488",
+                "indices": [
+                    14,
+                    37
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1026678318454591488/pu/img/GvcXxtn0CZqVBLb0.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1026678318454591488/pu/img/GvcXxtn0CZqVBLb0.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/OpoBWrrLQj",
+                "video_info": {
+                    "aspect_ratio": [
+                        1,
+                        1
+                    ],
+                    "duration_millis": 11432,
+                    "variants": [
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1026678318454591488/pu/pl/nRshLxbBXbK7kTJ3.m3u8?tag=5"
+                        },
+                        {
+                            "bitrate": 1280000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1026678318454591488/pu/vid/720x720/AytnzMuVcrLuVubj.mp4?tag=5"
+                        },
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1026678318454591488/pu/vid/240x240/9ERGMCco5oJfUkyW.mp4?tag=5"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1026678318454591488/pu/vid/480x480/nfluxO-MA9Y_KNJa.mp4?tag=5"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 28233,
+    "favorited": false,
+    "geo": null,
+    "id": 1026678353099554818,
+    "id_str": "1026678353099554818",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 3466,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Rollin' in LA https://t.co/OpoBWrrLQj",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Aug 05 20:58:47 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    73,
+                    77
+                ],
+                "text": "nr1"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/yvS8rsI6Gh",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1026210935222853634/photo/1",
+                "id": 1026210930013626368,
+                "id_str": "1026210930013626368",
+                "indices": [
+                    78,
+                    101
+                ],
+                "media_url": "http://pbs.twimg.com/media/Dj3VZ1wV4AAFjSY.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Dj3VZ1wV4AAFjSY.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 960,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 960,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 544
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/yvS8rsI6Gh"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 2885721760,
+                "id_str": "2885721760",
+                "indices": [
+                    61,
+                    72
+                ],
+                "name": "Mino Raiola",
+                "screen_name": "MinoRaiola"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/yvS8rsI6Gh",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1026210935222853634/photo/1",
+                "id": 1026210930013626368,
+                "id_str": "1026210930013626368",
+                "indices": [
+                    78,
+                    101
+                ],
+                "media_url": "http://pbs.twimg.com/media/Dj3VZ1wV4AAFjSY.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Dj3VZ1wV4AAFjSY.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 960,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 960,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 544
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/yvS8rsI6Gh"
+            }
+        ]
+    },
+    "favorite_count": 56666,
+    "favorited": false,
+    "geo": null,
+    "id": 1026210935222853634,
+    "id_str": "1026210935222853634",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 13588,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "When your agent tries to squeeze every last penny out of you @MinoRaiola #nr1 https://t.co/yvS8rsI6Gh",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Aug 02 22:13:05 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/6RqSB4zyHL",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1025142470818971650/photo/1",
+                "id": 1025142463860629505,
+                "id_str": "1025142463860629505",
+                "indices": [
+                    33,
+                    56
+                ],
+                "media_url": "http://pbs.twimg.com/media/DjoJo7KU4AEHqU1.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DjoJo7KU4AEHqU1.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 768,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 768,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/6RqSB4zyHL"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/6RqSB4zyHL",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1025142470818971650/photo/1",
+                "id": 1025142463860629505,
+                "id_str": "1025142463860629505",
+                "indices": [
+                    33,
+                    56
+                ],
+                "media_url": "http://pbs.twimg.com/media/DjoJo7KU4AEHqU1.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DjoJo7KU4AEHqU1.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 768,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 768,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/6RqSB4zyHL"
+            },
+            {
+                "display_url": "pic.twitter.com/6RqSB4zyHL",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1025142470818971650/photo/1",
+                "id": 1025142468587606016,
+                "id_str": "1025142468587606016",
+                "indices": [
+                    33,
+                    56
+                ],
+                "media_url": "http://pbs.twimg.com/media/DjoJpMxU0AAxMOJ.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DjoJpMxU0AAxMOJ.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 683,
+                        "resize": "fit",
+                        "w": 683
+                    },
+                    "medium": {
+                        "h": 683,
+                        "resize": "fit",
+                        "w": 683
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/6RqSB4zyHL"
+            }
+        ]
+    },
+    "favorite_count": 333240,
+    "favorited": false,
+    "geo": null,
+    "id": 1025142470818971650,
+    "id_str": "1025142470818971650",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 86312,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "They said it was over. I said NO https://t.co/6RqSB4zyHL",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Jul 27 15:27:45 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    68,
+                    84
+                ],
+                "text": "therightroutine"
+            },
+            {
+                "indices": [
+                    85,
+                    97
+                ],
+                "text": "zlatansport"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1022866136260431874",
+                "indices": [
+                    99,
+                    122
+                ],
+                "url": "https://t.co/BsmqhuvpUr"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 3953,
+    "favorited": false,
+    "geo": null,
+    "id": 1022866136260431874,
+    "id_str": "1022866136260431874",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 306,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "This is my daily routine, please share your daily routines with me. #therightroutine #zlatansport\u2026 https://t.co/BsmqhuvpUr",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jul 22 03:00:08 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/uBpWWRXXDi",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1020866054279630848/photo/1",
+                "id": 1020866038500667392,
+                "id_str": "1020866038500667392",
+                "indices": [
+                    4,
+                    27
+                ],
+                "media_url": "http://pbs.twimg.com/media/DirYQNQXsAAnUEC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DirYQNQXsAAnUEC.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 923,
+                        "resize": "fit",
+                        "w": 1385
+                    },
+                    "medium": {
+                        "h": 800,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 453,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/uBpWWRXXDi"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/uBpWWRXXDi",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1020866054279630848/photo/1",
+                "id": 1020866038500667392,
+                "id_str": "1020866038500667392",
+                "indices": [
+                    4,
+                    27
+                ],
+                "media_url": "http://pbs.twimg.com/media/DirYQNQXsAAnUEC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DirYQNQXsAAnUEC.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 923,
+                        "resize": "fit",
+                        "w": 1385
+                    },
+                    "medium": {
+                        "h": 800,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 453,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/uBpWWRXXDi"
+            },
+            {
+                "display_url": "pic.twitter.com/uBpWWRXXDi",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1020866054279630848/photo/1",
+                "id": 1020866046889259009,
+                "id_str": "1020866046889259009",
+                "indices": [
+                    4,
+                    27
+                ],
+                "media_url": "http://pbs.twimg.com/media/DirYQsgXcAET8Dy.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DirYQsgXcAET8Dy.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1066,
+                        "resize": "fit",
+                        "w": 1600
+                    },
+                    "medium": {
+                        "h": 800,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 453,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/uBpWWRXXDi"
+            }
+        ]
+    },
+    "favorite_count": 37374,
+    "favorited": false,
+    "geo": null,
+    "id": 1020866054279630848,
+    "id_str": "1020866054279630848",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "und",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 2685,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "\u2614\u2614\u2614 https://t.co/uBpWWRXXDi",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jul 15 19:51:37 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    56,
+                    63
+                ],
+                "text": "pogcup"
+            },
+            {
+                "indices": [
+                    64,
+                    77
+                ],
+                "text": "myapprentice"
+            },
+            {
+                "indices": [
+                    78,
+                    93
+                ],
+                "text": "congratsfrance"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/CzM0Am7fxj",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1018583884496171009/photo/1",
+                "id": 1018583878376742912,
+                "id_str": "1018583878376742912",
+                "indices": [
+                    94,
+                    117
+                ],
+                "media_url": "http://pbs.twimg.com/media/DiK8pASV4AAukkG.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DiK8pASV4AAukkG.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1202,
+                        "resize": "fit",
+                        "w": 1202
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/CzM0Am7fxj"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 2491702663,
+                "id_str": "2491702663",
+                "indices": [
+                    45,
+                    55
+                ],
+                "name": "Paul Pogba",
+                "screen_name": "paulpogba"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/CzM0Am7fxj",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1018583884496171009/photo/1",
+                "id": 1018583878376742912,
+                "id_str": "1018583878376742912",
+                "indices": [
+                    94,
+                    117
+                ],
+                "media_url": "http://pbs.twimg.com/media/DiK8pASV4AAukkG.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DiK8pASV4AAukkG.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1202,
+                        "resize": "fit",
+                        "w": 1202
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/CzM0Am7fxj"
+            }
+        ]
+    },
+    "favorite_count": 129168,
+    "favorited": false,
+    "geo": null,
+    "id": 1018583884496171009,
+    "id_str": "1018583884496171009",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 33411,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Let them talk but the game speaks for itself @paulpogba #pogcup #myapprentice #congratsfrance https://t.co/CzM0Am7fxj",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jul 15 02:06:03 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/LAGalaxy/statu\u2026",
+                "expanded_url": "https://twitter.com/LAGalaxy/status/1018310210820005889",
+                "indices": [
+                    19,
+                    42
+                ],
+                "url": "https://t.co/nEeBCXM8wD"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 23011345,
+                "id_str": "23011345",
+                "indices": [
+                    9,
+                    18
+                ],
+                "name": "LA Galaxy",
+                "screen_name": "LAGalaxy"
+            }
+        ]
+    },
+    "favorite_count": 5322,
+    "favorited": false,
+    "geo": null,
+    "id": 1018315726526922752,
+    "id_str": "1018315726526922752",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": true,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "quoted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun Jul 15 01:44:08 +0000 2018",
+        "entities": {
+            "hashtags": [],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/22MPRJc7Ok",
+                    "expanded_url": "https://twitter.com/LAGalaxy/status/1018310210820005889/photo/1",
+                    "id": 1018310197675114496,
+                    "id_str": "1018310197675114496",
+                    "indices": [
+                        69,
+                        92
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DiHDusOVQAA0_ot.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DiHDusOVQAA0_ot.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1080,
+                            "resize": "fit",
+                            "w": 1920
+                        },
+                        "medium": {
+                            "h": 675,
+                            "resize": "fit",
+                            "w": 1200
+                        },
+                        "small": {
+                            "h": 383,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/22MPRJc7Ok"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/22MPRJc7Ok",
+                    "expanded_url": "https://twitter.com/LAGalaxy/status/1018310210820005889/photo/1",
+                    "id": 1018310197675114496,
+                    "id_str": "1018310197675114496",
+                    "indices": [
+                        69,
+                        92
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DiHDusOVQAA0_ot.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DiHDusOVQAA0_ot.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1080,
+                            "resize": "fit",
+                            "w": 1920
+                        },
+                        "medium": {
+                            "h": 675,
+                            "resize": "fit",
+                            "w": 1200
+                        },
+                        "small": {
+                            "h": 383,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/22MPRJc7Ok"
+                }
+            ]
+        },
+        "favorite_count": 1166,
+        "favorited": false,
+        "geo": null,
+        "id": 1018310210820005889,
+        "id_str": "1018310210820005889",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 158,
+        "retweeted": false,
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "text": "FULL TIME | All three points on the road, just like we drew it up. \ud83d\ude09 https://t.co/22MPRJc7Ok",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Mar 06 01:32:34 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "The official Twitter of the first & only team to win five MLS Cup trophies. (En Espa\u00f1ol: @LAGalaxy_ES)",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "lagalaxy.com",
+                            "expanded_url": "http://www.lagalaxy.com",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/d7pa3Cm5QR"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2115,
+            "follow_request_sent": false,
+            "followers_count": 470201,
+            "following": false,
+            "friends_count": 1996,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 23011345,
+            "id_str": "23011345",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 3598,
+            "location": "Los Angeles, CA",
+            "name": "LA Galaxy",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23011345/1527745129",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1002061684456878080/aoJhcKEe_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1002061684456878080/aoJhcKEe_normal.jpg",
+            "profile_link_color": "008069",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F6F6F6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "LAGalaxy",
+            "statuses_count": 87370,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/d7pa3Cm5QR",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "quoted_status_id": 1018310210820005889,
+    "quoted_status_id_str": "1018310210820005889",
+    "retweet_count": 296,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Lets goo @LAGalaxy https://t.co/nEeBCXM8wD",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jul 15 01:56:33 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    38,
+                    52
+                ],
+                "text": "PayLikeZlatan"
+            },
+            {
+                "indices": [
+                    53,
+                    62
+                ],
+                "text": "WorldCup"
+            },
+            {
+                "indices": [
+                    63,
+                    78
+                ],
+                "text": "VisaAmbassador"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/8wwoMX1V6T",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1018313337245872128/video/1",
+                "id": 1018313258271297536,
+                "id_str": "1018313258271297536",
+                "indices": [
+                    79,
+                    102
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1018313258271297536/pu/img/7lIEGViAwvi1YBUz.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1018313258271297536/pu/img/7lIEGViAwvi1YBUz.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/8wwoMX1V6T"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 551373363,
+                "id_str": "551373363",
+                "indices": [
+                    32,
+                    37
+                ],
+                "name": "Visa",
+                "screen_name": "Visa"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/8wwoMX1V6T",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1018313337245872128/video/1",
+                "id": 1018313258271297536,
+                "id_str": "1018313258271297536",
+                "indices": [
+                    79,
+                    102
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1018313258271297536/pu/img/7lIEGViAwvi1YBUz.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1018313258271297536/pu/img/7lIEGViAwvi1YBUz.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/8wwoMX1V6T",
+                "video_info": {
+                    "aspect_ratio": [
+                        1,
+                        1
+                    ],
+                    "duration_millis": 44600,
+                    "variants": [
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1018313258271297536/pu/vid/240x240/cfwRWYeJpitPb-YO.mp4?tag=3"
+                        },
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1018313258271297536/pu/pl/Ki7fKPm8YD3-Nol7.m3u8?tag=3"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1018313258271297536/pu/vid/480x480/1BcMsS8cpmJqfdEM.mp4?tag=3"
+                        },
+                        {
+                            "bitrate": 1280000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1018313258271297536/pu/vid/720x720/C1rq-PEKsjpq7q9L.mp4?tag=3"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 5021,
+    "favorited": false,
+    "geo": null,
+    "id": 1018313337245872128,
+    "id_str": "1018313337245872128",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 498,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "I came. I saw. I dominated with @Visa #PayLikeZlatan #WorldCup #VisaAmbassador https://t.co/8wwoMX1V6T",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue Jul 10 14:17:27 +0000 2018",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    86,
+                    95
+                ],
+                "text": "WorldCup"
+            },
+            {
+                "indices": [
+                    96,
+                    111
+                ],
+                "text": "VisaAmbassador"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/5Acy6iYqKI",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1016687852615155712/video/1",
+                "id": 1016687821996716034,
+                "id_str": "1016687821996716034",
+                "indices": [
+                    112,
+                    135
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1016687821996716034/pu/img/ykJlXUF1V8ueEf2F.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1016687821996716034/pu/img/ykJlXUF1V8ueEf2F.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/5Acy6iYqKI"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/5Acy6iYqKI",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1016687852615155712/video/1",
+                "id": 1016687821996716034,
+                "id_str": "1016687821996716034",
+                "indices": [
+                    112,
+                    135
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1016687821996716034/pu/img/ykJlXUF1V8ueEf2F.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1016687821996716034/pu/img/ykJlXUF1V8ueEf2F.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/5Acy6iYqKI",
+                "video_info": {
+                    "aspect_ratio": [
+                        1,
+                        1
+                    ],
+                    "duration_millis": 6000,
+                    "variants": [
+                        {
+                            "bitrate": 1280000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1016687821996716034/pu/vid/720x720/MbTgp4lxaQvi86wN.mp4?tag=3"
+                        },
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1016687821996716034/pu/vid/240x240/Kt8Ko876TKags7SA.mp4?tag=3"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1016687821996716034/pu/vid/480x480/xl6_iPzvnOH4m9QV.mp4?tag=3"
+                        },
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1016687821996716034/pu/pl/iYx_O5bj-n9KbMeB.m3u8?tag=3"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 4933,
+    "favorited": false,
+    "geo": null,
+    "id": 1016687852615155712,
+    "id_str": "1016687852615155712",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 464,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "You\u2019ve had a great tournament so far. Now it\u2019s semi-final time. Be like Zlatan \u2013 win. #WorldCup #VisaAmbassador https://t.co/5Acy6iYqKI",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue Jul 10 01:22:43 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/jCsmv6dAtM",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1016492882750889984/video/1",
+                "id": 1016492848886059008,
+                "id_str": "1016492848886059008",
+                "indices": [
+                    24,
+                    47
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1016492848886059008/pu/img/vyHLm3Fsf1f2N8vs.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1016492848886059008/pu/img/vyHLm3Fsf1f2N8vs.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/jCsmv6dAtM"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/jCsmv6dAtM",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1016492882750889984/video/1",
+                "id": 1016492848886059008,
+                "id_str": "1016492848886059008",
+                "indices": [
+                    24,
+                    47
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1016492848886059008/pu/img/vyHLm3Fsf1f2N8vs.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1016492848886059008/pu/img/vyHLm3Fsf1f2N8vs.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/jCsmv6dAtM",
+                "video_info": {
+                    "aspect_ratio": [
+                        1,
+                        1
+                    ],
+                    "duration_millis": 8566,
+                    "variants": [
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1016492848886059008/pu/pl/kw0EG6wG8rUwk5hT.m3u8?tag=3"
+                        },
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1016492848886059008/pu/vid/240x240/u7wTcVsZBV8K3MJn.mp4?tag=3"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1016492848886059008/pu/vid/480x480/iT9ZLWuAZWOT5OPO.mp4?tag=3"
+                        },
+                        {
+                            "bitrate": 1280000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1016492848886059008/pu/vid/720x720/IfYqF0Pn417tmaAg.mp4?tag=3"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 17548,
+    "favorited": false,
+    "geo": null,
+    "id": 1016492882750889984,
+    "id_str": "1016492882750889984",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1784,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Rollin' in Venice Beach https://t.co/jCsmv6dAtM",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jul 08 22:15:47 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1016083453060608000",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/pOolcqliek"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 18423,
+    "favorited": false,
+    "geo": null,
+    "id": 1016083453060608000,
+    "id_str": "1016083453060608000",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1239,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Sweden should thank this person because of him every player that plays for the national team of Sweden feels Home,W\u2026 https://t.co/pOolcqliek",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jul 07 19:53:15 +0000 2018",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/VsoaUY6W99",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1015685195318550528/photo/1",
+                "id": 1015685185986129920,
+                "id_str": "1015685185986129920",
+                "indices": [
+                    114,
+                    137
+                ],
+                "media_url": "http://pbs.twimg.com/media/DhhwS5pUcAA2rtD.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DhhwS5pUcAA2rtD.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1429,
+                        "resize": "fit",
+                        "w": 1429
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/VsoaUY6W99"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/VsoaUY6W99",
+                "expanded_url": "https://twitter.com/Ibra_official/status/1015685195318550528/photo/1",
+                "id": 1015685185986129920,
+                "id_str": "1015685185986129920",
+                "indices": [
+                    114,
+                    137
+                ],
+                "media_url": "http://pbs.twimg.com/media/DhhwS5pUcAA2rtD.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DhhwS5pUcAA2rtD.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1429,
+                        "resize": "fit",
+                        "w": 1429
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/VsoaUY6W99"
+            }
+        ]
+    },
+    "favorite_count": 90813,
+    "favorited": false,
+    "geo": null,
+    "id": 1015685195318550528,
+    "id_str": "1015685195318550528",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 10803,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Every player should get a golden ball in Sweden. What they did will be remembered forever. Thank you for the show https://t.co/VsoaUY6W99",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 12 10:44:34 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Lions don't compare themselves to humans",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/ZlatanIbrahimo\u2026",
+                        "expanded_url": "https://www.facebook.com/ZlatanIbrahimovic",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/hbvhGrKA4z"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 398,
+        "follow_request_sent": false,
+        "followers_count": 5336410,
+        "following": false,
+        "friends_count": 16,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 461922813,
+        "id_str": "461922813",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 7017,
+        "location": "",
+        "name": "Zlatan Ibrahimovi\u0107",
+        "notifications": false,
+        "profile_background_color": "021736",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/461922813/1512224143",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980287241212710912/BN6FXg4w_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ibra_official",
+        "statuses_count": 405,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/hbvhGrKA4z",
+        "utc_offset": null,
+        "verified": true
+    }
+}

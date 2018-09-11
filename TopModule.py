@@ -12,6 +12,6 @@ if handle[0] is not '@':
 	handle = "@" + handle
 print("You chose: ", handle )
 
-MP1Tweets.grab("null")
+MP1Tweets.grab(handle)
 
 MP1Tweets.parse()
