@@ -6,43 +6,51 @@ import os
 import json
 
 def grab(handle):
+	#Keys have been obfuscated manually before uploading to git.
 	consumer_key = "-"
 	consumer_secret = "-"
 	access_key = "-"
 	access_secret = "-"
 
 
+	#Authorize with API.
+	print("Authorizing with Twitter...")
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_key, access_secret)
 	api = tweepy.API(auth)
 
-	print("TweetGrab Called")
-	tweetlist = []
+	print("Collecting tweets...")
+	#Stage variable for storing urls.
+	imageurls = []
 
+	#Get first tweet.
 	newtweet = api.user_timeline(screen_name = handle, count=1)
 
+	#Loop through tweets until no more tweets.
 	while len(newtweet) > 0:
-		print(newtweet[0].id)
-		newid = newtweet[0].id - 1
+		print("Tweet found: ", newtweet[0].id)
+		#Check if the current tweet is a retweet.
 		if hasattr(newtweet[0], 'retweeted_status'):
-			print("is retweet")
+			print("...is retweet")
+			#Check if original tweet has image.
 			if "media" in newtweet[0].retweeted_status.entities:
-				print("retweet has image")
-				tweetlist.extend(newtweet)
+				print("...has image")
+				imageurls.append(newtweet[0].retweeted_status.entities['media'][0]['media_url'])
+		#Check if tweet contains image.
 		if "media" in newtweet[0].entities:
-			print("has image")
-			tweetlist.extend(newtweet)
+			print("...has image")
+			imageurls.append(newtweet[0].entities['media'][0]['media_url'])
+		#Get ready to call next tweet by reducing the id value.
+		newid = newtweet[0].id - 1
+		#Get new tweet.
 		newtweet = api.user_timeline(screen_name = handle,count=1,max_id=newid)
 
-	writeto = open('tweetdump.json', 'w') 
-	print ("Writing to file")
-	for tweet in tweetlist:
-		json.dump(tweet._json,writeto,sort_keys = True,indent = 4)
+	print("All tweets collected.")
 
-	writeto.close()
+	return(imageurls)
 
 
-def parse():
+def retrieve():
 	print("TweetParse Called")
 
 	pullfrom = open('tweetdump.json', 'r')
