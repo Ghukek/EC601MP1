@@ -3,12 +3,13 @@
 
 import tweepy
 import os
+import json
 
 def grab(handle):
-	consumer_key = ""
-	consumer_secret = ""
-	access_key = ""
-	access_secret = ""
+	consumer_key = "-"
+	consumer_secret = "-"
+	access_key = "-"
+	access_secret = "-"
 
 
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -19,14 +20,29 @@ def grab(handle):
 	tweetlist = []
 
 	newtweet = api.user_timeline(screen_name = handle, count=1)
-	print(newtweet[0].id)
 
 	while len(newtweet) > 0:
-		newid = newtweet[0].id - 1
-		tweetlist.extend(newtweet)
-		newtweet = api.user_timeline(screen_name = handle,count=1,max_id=newid)
 		print(newtweet[0].id)
+		newid = newtweet[0].id - 1
+		if hasattr(newtweet[0], 'retweeted_status'):
+			print("is retweet")
+			if "media" in newtweet[0].retweeted_status.entities:
+				print("retweet has image")
+				tweetlist.extend(newtweet)
+		if "media" in newtweet[0].entities:
+			print("has image")
+			tweetlist.extend(newtweet)
+		newtweet = api.user_timeline(screen_name = handle,count=1,max_id=newid)
+
+	writeto = open('tweetdump.json', 'w') 
+	print ("Writing to file")
+	for tweet in tweetlist:
+		json.dump(tweet._json,writeto,sort_keys = True,indent = 4)
+
+	writeto.close()
 
 
 def parse():
 	print("TweetParse Called")
+
+	pullfrom = open('tweetdump.json', 'r')
