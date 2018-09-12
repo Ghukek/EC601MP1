@@ -4,6 +4,7 @@
 import tweepy
 import os
 import MP1Tweets
+import MP1FFMPEG
 
 def main():
 	print("Welcome!")
@@ -29,17 +30,24 @@ def main():
 	if (urls is 0):
 		print("There was an issue authorizing with Twitter, cancelling...")
 		return 1
+	if (urls is 2):
+		print("Could not retrieve tweets, perhaps the account is protected, cancelling...")
+		return 1
 	if (len(urls) is 0):
 		print("No images found, cancelling...")
 		return 1
 
 	#Send image urls to retrieve images.
-	errstatus = MP1Tweets.retrieve(urls)
+	imgres = MP1Tweets.retrieve(urls)
 
 	#Error checking results of retrieve function.
-	if (errstatus == 1):
+	if (imgres == -1):
 		print("./ImageDump folder could not be deleted, cancelling...")
+		return 1
 	else:
 		print("Images retrieved successfully...")
+
+	#Send to FFMPEG module.
+	MP1FFMPEG.jpegtompeg(imgres)
 
 main()

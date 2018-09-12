@@ -1,11 +1,12 @@
 #Copyright 2018 Nathan Wiebe
-#EC 601 Mini Project 1 TweetGrabber
+#EC 601 Mini Project 1 Twitter Module
 
 import tweepy
 import os
 import json
 import shutil
 import urllib.request
+import MP1FFMPEG
 
 def grab(handle):
 	#Keys have been obfuscated manually before uploading to git.
@@ -37,8 +38,11 @@ def grab(handle):
 	#Stage variable for storing urls.
 	imageurls = []
 
-	#Get first tweet.
-	newtweet = api.user_timeline(screen_name = handle, count=1)
+	#Get first tweet. If there is an error, the account may be protected.
+	try:
+		newtweet = api.user_timeline(screen_name = handle, count=1)
+	except:
+		return 2
 
 	tweetnum = 1
 	dbleimgcheck = 0
@@ -70,7 +74,10 @@ def grab(handle):
 		#Add to tweet number.
 		tweetnum = tweetnum +1
 
-	print("Max tweets collected.")
+	if tweetnum is 500:
+		print("Max tweets collected.")
+	else:
+		print("All tweets collected.")
 
 	return(imageurls)
 
@@ -92,7 +99,7 @@ def retrieve(imageurls):
 			shutil.rmtree("./ImageDump")
 			print("Folder deleted, creating new one...")
 		else:
-			return(1)
+			return(-1)
 	else:
 		print("Folder doesn't exist, creating...")
 
@@ -121,9 +128,14 @@ def retrieve(imageurls):
 		try:
 			urllib.request.urlretrieve(image, imagestr)
 		except:
-			print("Image: %s error, cannot retrieve..." % (imagestr))
+			print("Image: %s error, cannot retrieve. Trying next image..." % (imagestr))
 		else:
 			print("Image: %s retrieved..." % (imagestr))
-		imagenum = imagenum + 1
+			imagenum = imagenum + 1
+
+		#Fix image resolution to 1920x1080
+		MP1FFMPEG.resolutionfix(imagestr)
+
+	return(imagenum)
 	
 	
