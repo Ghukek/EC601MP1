@@ -26,7 +26,7 @@ def grab(handle):
 
 	print("Checking twitter handle...")
 
-	#Add check for handle existence.
+	#Check for handle existence.
 	try:
 		api.get_user(handle)
 	except:
@@ -41,6 +41,7 @@ def grab(handle):
 	newtweet = api.user_timeline(screen_name = handle, count=1)
 
 	tweetnum = 1
+	dbleimgcheck = 0
 
 	#Loop through tweets until no more tweets or 500 tweets have been investigated.
 	#Limit for status request is 900.
@@ -51,14 +52,19 @@ def grab(handle):
 			print("...is retweet")
 			#Check if original tweet has image.
 			if "media" in newtweet[0].retweeted_status.entities:
-				print("...has image")
+				print("...retweet has image")
 				imageurls.append(newtweet[0].retweeted_status.entities['media'][0]['media_url'])
+				#Sometimes both the retweet and the tweet contain the same image.
+				#Use a check to prevent the image from saving twice.
+				dblimgcheck = 1
 		#Check if tweet contains image.
-		if "media" in newtweet[0].entities:
+		if "media" in newtweet[0].entities and dblimgcheck is 0:
 			print("...has image")
 			imageurls.append(newtweet[0].entities['media'][0]['media_url'])
 		#Get ready to call next tweet by reducing the id value.
 		newid = newtweet[0].id - 1
+		#Reset double image check.
+		dblimgcheck = 0
 		#Get new tweet.
 		newtweet = api.user_timeline(screen_name = handle,count=1,max_id=newid)
 		#Add to tweet number.
