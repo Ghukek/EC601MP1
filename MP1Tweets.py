@@ -1,4 +1,4 @@
-#Copyright 2018 Nathan Wiebe
+#Copyright 2018 Nathan Wiebe nwiebe@bu.edu
 #EC 601 Mini Project 1 Twitter Module
 
 import tweepy
@@ -7,6 +7,7 @@ import json
 import shutil
 import urllib.request
 import MP1FFMPEG
+import MP1GVision
 
 def grab(handle):
 	#Keys have been obfuscated manually before uploading to git.
@@ -132,9 +133,13 @@ def retrieve(imageurls):
 		else:
 			print("Image: %s retrieved..." % (imagestr))
 			imagenum = imagenum + 1
+			#Send to GoogleVision to get labels.
+			labels = MP1GVision.getlabels(imagestr)
+			#Fix image resolution to 1920x1080
+			MP1FFMPEG.resolutionfix(imagestr)
 
-		#Fix image resolution to 1920x1080
-		MP1FFMPEG.resolutionfix(imagestr)
+
+		
 
 	return(imagenum)
 	
