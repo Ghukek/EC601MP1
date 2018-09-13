@@ -4,6 +4,24 @@
 import io
 import os
 from google.cloud import vision
+import string
+
+#Take the list of labels and put them into neat lines.
+def stringfix(labels):
+	newlabel = [""]
+	linecount = 0
+	for label in labels:
+		if ((len(newlabel[linecount]) + len(label.description)) < 39):
+			newlabel[linecount] = newlabel[linecount] + label.description + ", "
+		else:
+			linecount = linecount + 1
+			labeln = label.description + ", "
+			newlabel.append(labeln)
+	for line in newlabel:
+		line = line[:-1]
+		line.title()
+		print(line)
+	return newlabel
 
 #The code for getlabels is mostly copied from Google vision documentation.
 #https://cloud.google.com/vision/docs/detecting-labels#vision-label-detection-python
@@ -20,7 +38,6 @@ def getlabels(imgstr):
 	labels = response.label_annotations
 	print('Labels:')
 
-	for label in labels:
-		print(label.description)
+	label = stringfix(labels)
 
-	return labels
+	return label

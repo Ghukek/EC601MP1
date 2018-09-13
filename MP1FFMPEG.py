@@ -31,5 +31,6 @@ def resolutionfix(imgstr):
 
 
 def jpegtompeg(imgnum):
-	#os.chdir("./ImageDump")
-	os.system("ffmpeg -framerate 1 -i %03d.jpg slideshow.mp4")
+	print("Making slideshow...")
+	os.system("ffmpeg -loglevel panic -framerate 1 -i %03d.jpg slideshow.mp4 -vf format=yuv420p")
+	print("Slideshow created with %d images..." % imgnum)
