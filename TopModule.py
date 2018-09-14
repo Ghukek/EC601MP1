@@ -1,4 +1,4 @@
-#Copyright 2018 Nathan Wiebe
+#Copyright 2018 Nathan Wiebe nwiebe@bu.edu
 #EC 601 Mini Project 1 Top Module 
 
 import tweepy
@@ -8,12 +8,18 @@ import MP1FFMPEG
 
 def main():
 	print("Welcome!")
+
+	#Get user input for Twitter handle.
 	handle=input('Enter a Twitter Handle: ')
+
+	#Check if user included the @. If not, fix.
 	if handle[0] is not '@':
 		print("Handle incomplete: fixing...")
 		handle = "@" + handle
+
 	print("You chose: ", handle , ".")
 
+	#Grab tweets.
 	urls = MP1Tweets.grab(handle)
 
 	# # url set used for testing modules without accessing API unnecessarily

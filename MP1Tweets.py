@@ -19,10 +19,13 @@ def grab(handle):
 
 	#Authorize with API.
 	print("Authorizing with Twitter...")
+	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+	auth.set_access_token(access_key, access_secret)
+	api = tweepy.API(auth)
+
+	#Check known Twitter handle to verify authorization.
 	try:
-		auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-		auth.set_access_token(access_key, access_secret)
-		api = tweepy.API(auth)
+		api.get_user("@ghukek")
 	except:
 		return 0
 
@@ -50,7 +53,8 @@ def grab(handle):
 
 	#Loop through tweets until no more tweets or 500 tweets have been investigated.
 	#Limit for status request is 900.
-	while (len(newtweet) > 0 and tweetnum < 501):
+	#To avoid hitting the Google Vision 1k image limit, restrict images pulled to 60.
+	while (len(newtweet) > 0 and tweetnum < 501 and len(imageurls) < 61):
 		print("Tweet found: ", newtweet[0].id)
 		#Check if the current tweet is a retweet.
 		if hasattr(newtweet[0], 'retweeted_status'):
@@ -58,6 +62,7 @@ def grab(handle):
 			#Check if original tweet has image.
 			if "media" in newtweet[0].retweeted_status.entities:
 				print("...retweet has image")
+				#Add image url to list.
 				imageurls.append(newtweet[0].retweeted_status.entities['media'][0]['media_url'])
 				#Sometimes both the retweet and the tweet contain the same image.
 				#Use a check to prevent the image from saving twice.
@@ -65,6 +70,7 @@ def grab(handle):
 		#Check if tweet contains image.
 		if "media" in newtweet[0].entities and dblimgcheck is 0:
 			print("...has image")
+			#Add image url to list.
 			imageurls.append(newtweet[0].entities['media'][0]['media_url'])
 		#Get ready to call next tweet by reducing the id value.
 		newid = newtweet[0].id - 1
@@ -137,6 +143,8 @@ def retrieve(imageurls):
 			labels = MP1GVision.getlabels(imagestr)
 			#Fix image resolution to 1920x1080
 			MP1FFMPEG.resolutionfix(imagestr)
+			#Add labels to image.
+			MP1FFMPEG.stringadd(labels, imagestr)
 
 
 		
