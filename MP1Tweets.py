@@ -12,6 +12,7 @@ import sys
 sys.path.insert(0,'..')
 import TweetAPI
 
+
 def grab(handle):
 	# See Readme for how to get twitter keys working.
 	consumer_key = TweetAPI.conskey()
