@@ -42,7 +42,7 @@ def grab(handle):
 
 	print("Collecting tweets...")
 
-	#Stage variable for storing urls.
+	# Stage variable for storing urls.
 	imageurls = []
 
 	#Get first tweet. If there is an error, the account may be protected.
