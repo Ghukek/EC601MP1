@@ -50,6 +50,8 @@ def main():
 	if (imgres == -1):
 		print("./ImageDump folder could not be deleted, cancelling...")
 		return 1
+	if (imgres == -2):
+		print("Google Vision API unable to authenticate, cancelling...")
 	else:
 		print("Images retrieved successfully...")
 

@@ -43,7 +43,10 @@ def getlabels(imgstr):
 	authfile = "/home/nathan/Documents/EC601/Project1/googlekeys.json"
 
 	#Initialize client.
-	client = vision.ImageAnnotatorClient.from_service_account_json(authfile)
+	try:
+		client = vision.ImageAnnotatorClient.from_service_account_json(authfile)
+	except:
+		return 0
 
 	#Open image.
 	with io.open(imgstr, 'rb') as image_file:

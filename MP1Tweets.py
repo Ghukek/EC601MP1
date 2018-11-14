@@ -8,22 +8,24 @@ import shutil
 import urllib.request
 import MP1FFMPEG
 import MP1GVision
+import sys
+sys.path.insert(0,'..')
+import TweetAPI
 
 def grab(handle):
-	#Keys have been obfuscated manually before uploading to git.
-	consumer_key = "-"
-	consumer_secret = "-"
-	access_key = "-"
-	access_secret = "-"
+	# See Readme for how to get twitter keys working.
+	consumer_key = TweetAPI.conskey()
+	consumer_secret = TweetAPI.conssec()
+	access_key = TweetAPI.acckey()
+	access_secret = TweetAPI.accsec()
 
-
-	#Authorize with API.
+	# Authorize with API.
 	print("Authorizing with Twitter...")
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_key, access_secret)
 	api = tweepy.API(auth)
 
-	#Check known Twitter handle to verify authorization.
+	# Check known Twitter handle to verify authorization.
 	try:
 		api.get_user("@ghukek")
 	except:
@@ -31,7 +33,7 @@ def grab(handle):
 
 	print("Checking twitter handle...")
 
-	#Check for handle existence.
+	# Check for handle existence.
 	try:
 		api.get_user(handle)
 	except:
@@ -49,7 +51,7 @@ def grab(handle):
 		return 2
 
 	tweetnum = 1
-	dbleimgcheck = 0
+	dblimgcheck = 0
 
 	#Loop through tweets until no more tweets or 500 tweets have been investigated.
 	#Limit for status request is 900.
@@ -141,6 +143,10 @@ def retrieve(imageurls):
 			imagenum = imagenum + 1
 			#Send to GoogleVision to get labels.
 			labels = MP1GVision.getlabels(imagestr)
+
+			if labels is 0:
+				return -2
+
 			#Fix image resolution to 1920x1080
 			MP1FFMPEG.resolutionfix(imagestr)
 			#Add labels to image.
