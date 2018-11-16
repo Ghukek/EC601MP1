@@ -29,8 +29,7 @@ def checkdata(username):
     result = db.posts.find_one({'username': username})
 
     if result:
-        #Change this to return(result['lasttweet']) after testing.
-        return(result)
+        return(result['lasttweet'])
     else:
         return(-1)
 

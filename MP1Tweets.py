@@ -13,7 +13,7 @@ sys.path.insert(0,'..')
 import TweetAPI
 
 
-def grab(handle):
+def grab(handle, lasttweet):
 	# See Readme for how to get twitter keys working.
 	consumer_key = TweetAPI.conskey()
 	consumer_secret = TweetAPI.conssec()
@@ -54,10 +54,12 @@ def grab(handle):
 	tweetnum = 1
 	dblimgcheck = 0
 
+	maxid = newtweet[0].id
+
 	#Loop through tweets until no more tweets or 500 tweets have been investigated.
 	#Limit for status request is 900.
 	#To avoid hitting the Google Vision 1k image limit, restrict images pulled to 60.
-	while (len(newtweet) > 0 and tweetnum < 501 and len(imageurls) < 61):
+	while (len(newtweet) > 0 and tweetnum < 501 and len(imageurls) < 61) and newtweet[0].id > lasttweet:
 		print("Tweet found: ", newtweet[0].id)
 		#Check if the current tweet is a retweet.
 		if hasattr(newtweet[0], 'retweeted_status'):
@@ -89,7 +91,7 @@ def grab(handle):
 	else:
 		print("All tweets collected.")
 
-	return(imageurls)
+	return(imageurls, maxid)
 
 
 def retrieve(imageurls):

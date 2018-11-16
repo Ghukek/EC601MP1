@@ -9,18 +9,31 @@ import MP1FFMPEG
 def main():
 	print("Welcome!")
 
-	#Get user input for Twitter handle.
+	# Once I implement the MySQL API, I will make this an option.
+	import MP3Mongo as dbapi
+
+	# Get user input for Twitter handle.
 	handle=input('Enter a Twitter Handle: ')
 
-	#Check if user included the @. If not, fix.
+	# Check if user included the @. If not, fix.
 	if handle[0] is not '@':
 		print("Handle incomplete: fixing...")
 		handle = "@" + handle
 
-	print("You chose: ", handle , ".")
+	print("You chose: " + handle)
+
+	# Convert handle to standard username for db.
+	uname = handle[1:].lower()
+	
+	# Test if username is already in db.
+	lasttweet = dbapi.checkdata(uname)
+	print(lasttweet)
 
 	#Grab tweets.
-	urls = MP1Tweets.grab(handle)
+	urls, maxtweet = MP1Tweets.grab(handle, lasttweet)
+	print(maxtweet)
+
+	return 1
 
 	# # url set used for testing modules without accessing API unnecessarily
 	# urls = ['http://pbs.twimg.com/media/CmyXY4jWcAAt9J5.jpg', 
