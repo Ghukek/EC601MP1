@@ -7,4 +7,41 @@ from pymongo import MongoClient
 client = MongoClient()
 
 # Access MP3 database.
-db = client.pymongo_test
+db = client.miniprojectdb
+
+def postnewdata(username, lasttweet, imgurllist, taglist):
+    """Used to create a new user."""
+
+    post_data = {
+        'username': username,
+        'lasttweet': lasttweet,
+        'imgurllist': imgurllist,
+        'taglist': taglist,
+    }
+    result = db.posts.insert_one(post_data)
+    
+    return(result.acknowledged)
+
+def checkdata(username):
+    """Gets the most recent tweet found by the database for given user."""
+    # If user is not in database, return -1.
+
+    result = db.posts.find_one({'username': username})
+
+    if result:
+        #Change this to return(result['lasttweet']) after testing.
+        return(result)
+    else:
+        return(-1)
+
+def updatedata(username, lasttweet, imgurllist, taglist):
+    """Used to update user data in db."""
+    tempdoc = db.posts.find_one({'username': username})
+
+    newilist = imgurllist + tempdoc['imgurllist']
+    newtlist = taglist + tempdoc['taglist']
+
+    result = db.posts.find_one_and_update({'username': username}, 
+                                          {'$set': {'lasttweet': lasttweet,
+                                                    'imgurllist': newilist,
+                                                    'taglist': newtlist}})
