@@ -47,8 +47,10 @@ def resolutionfix(imgstr):
 
 #Original code for this module copied from Pillow documentation.
 #https://pillow.readthedocs.io/en/3.0.x/reference/ImageDraw.html
-def stringadd(str, imgstr):
+def stringadd(string, imgstr):
 	print("Adding lables...")
+
+	print(string)
 
 	#Get an image.
 	base = Image.open(imgstr).convert('RGBA')
@@ -62,15 +64,15 @@ def stringadd(str, imgstr):
 	#Get a drawing context.
 	d = ImageDraw.Draw(txt)
 
-	if (len(str) > 0):
+	if (len(string) > 0):
 		#Draw text, line 1.
-		d.text((520,900), str[0], font=fnt, fill=(255,255,255,255))
-	if (len(str) > 1):
+		d.text((520,900), string[0], font=fnt, fill=(255,255,255,255))
+	if (len(string) > 1):
 		#Draw text, line 2.
-		d.text((520,960), str[1], font=fnt, fill=(255,255,255,255))
-	if (len(str) > 2):
+		d.text((520,960), string[1], font=fnt, fill=(255,255,255,255))
+	if (len(string) > 2):
 		#Draw text, line 3.
-		d.text((520,1020), str[2], font=fnt, fill=(255,255,255,255))
+		d.text((520,1020), string[2], font=fnt, fill=(255,255,255,255))
 	#If there are more than 3 lines of labels, ignore them.
 
 	#Combine.
