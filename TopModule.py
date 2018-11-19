@@ -33,8 +33,6 @@ def main():
 	urls, maxtweet = MP1Tweets.grab(handle, lasttweet)
 	print(maxtweet)
 
-	return 1
-
 	# # url set used for testing modules without accessing API unnecessarily
 	# urls = ['http://pbs.twimg.com/media/CmyXY4jWcAAt9J5.jpg', 
 	# 'http://pbs.twimg.com/media/Cj-LSpNVAAEz8GS.jpg', 
@@ -53,11 +51,14 @@ def main():
 		print("Could not retrieve tweets, perhaps the account is protected, cancelling...")
 		return 1
 	if (len(urls) is 0):
-		print("No images found, cancelling...")
+		if lasttweet == -1:
+			print("No new images found, cancelling...")
+		else:
+			print("No images found, cancelling...")
 		return 1
 
 	#Send image urls to retrieve images.
-	imgres = MP1Tweets.retrieve(urls)
+	imgres, labels = MP1Tweets.retrieve(urls)
 
 	#Error checking results of retrieve function.
 	if (imgres == -1):
@@ -70,5 +71,11 @@ def main():
 
 	#Send to FFMPEG module.
 	MP1FFMPEG.jpegtompeg(imgres)
+
+	# Post to db
+	if lasttweet == -1:
+		postres = dbapi.postnewdata(uname, maxtweet, urls, labels)
+	else:
+		postres = dbapi.updatedata(uname, maxtweet, urls, labels)
 
 main()

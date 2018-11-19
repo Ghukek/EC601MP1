@@ -122,6 +122,7 @@ def retrieve(imageurls):
 	#Stage values for image naming.
 	imagenum = 1
 	imagestr = "000"
+	imglabels = []
 
 	for image in imageurls:
 		#Check for how many zeros to add in front of number.
@@ -154,10 +155,11 @@ def retrieve(imageurls):
 			MP1FFMPEG.resolutionfix(imagestr)
 			#Add labels to image.
 			MP1FFMPEG.stringadd(labels, imagestr)
+			imglabels.append(labels)
 
 
 		
 
-	return(imagenum)
+	return(imagenum, labels)
 	
 	

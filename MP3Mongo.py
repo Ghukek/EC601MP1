@@ -44,3 +44,5 @@ def updatedata(username, lasttweet, imgurllist, taglist):
                                           {'$set': {'lasttweet': lasttweet,
                                                     'imgurllist': newilist,
                                                     'taglist': newtlist}})
+
+    return 0
