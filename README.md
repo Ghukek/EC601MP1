@@ -14,3 +14,9 @@ You will need to install the following Python libraries using $ pip install
 
 # Mongo
 You will need to install and run Mongo on your personal machine.
+
+Use $ sudo service mongod start 
+
+# Todo
+Move video to ../Videos
+Complete ReadMe

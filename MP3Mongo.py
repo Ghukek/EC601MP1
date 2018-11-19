@@ -29,9 +29,9 @@ def checkdata(username):
     result = db.posts.find_one({'username': username})
 
     if result:
-        return(result['lasttweet'])
+        return(result['lasttweet'], result['imgurllist'], result['taglist'])
     else:
-        return(-1)
+        return(-1, [], [])
 
 def updatedata(username, lasttweet, imgurllist, taglist):
     """Used to update user data in db."""

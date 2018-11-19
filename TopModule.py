@@ -26,7 +26,7 @@ def main():
 	uname = handle[1:].lower()
 	
 	# Test if username is already in db.
-	lasttweet = dbapi.checkdata(uname)
+	lasttweet, oldimgurls, oldlabels = dbapi.checkdata(uname)
 	print(lasttweet)
 
 	#Grab tweets.
@@ -52,13 +52,22 @@ def main():
 		return 1
 	if (len(urls) is 0):
 		if lasttweet == -1:
-			print("No new images found, cancelling...")
-		else:
 			print("No images found, cancelling...")
-		return 1
+			return 1
+		else:
+			conf = str(input("No new images found, do you want to make a new video from old photos? y/n: "))
+			while True:
+				if (conf is "y" or conf is "n" or conf is "Y" or conf is "N"):
+					break
+				else:
+					conf = str(input("Please input y or n: "))
+			if (conf is "y" or conf is "Y"):
+				pass
+			else:
+				return(1)
 
 	#Send image urls to retrieve images.
-	imgres, labels = MP1Tweets.retrieve(urls)
+	imgres, labels = MP1Tweets.retrieve(urls, oldimgurls, oldlabels)
 
 	#Error checking results of retrieve function.
 	if (imgres == -1):
@@ -70,7 +79,7 @@ def main():
 		print("Images retrieved successfully...")
 
 	#Send to FFMPEG module.
-	MP1FFMPEG.jpegtompeg(imgres)
+	MP1FFMPEG.jpegtompeg(imgres, uname)
 
 	# Post to db
 	if lasttweet == -1:

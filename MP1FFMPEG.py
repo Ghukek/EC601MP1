@@ -4,6 +4,7 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 import math
+import datetime
 
 def resolutionfix(imgstr):
 	print("Fixing image resolution...")
@@ -83,10 +84,19 @@ def stringadd(str, imgstr):
 
 	print("Labels added...")
 
-def jpegtompeg(imgnum):
+def jpegtompeg(imgnum, uname):
 	print("Making slideshow...")
 
+	now = datetime.datetime.now()
+
+	curtime = "_%d%d%d_%d%d%d" % (now.year, now.month, now.day, now.hour, now.minute, now.second)
+
+	str1 = "ffmpeg -loglevel panic -framerate .5 -i %03d.jpg "
+	str2 = ".mp4 -vf format=yuv420p"
+
+	strcomp = str1 + uname + curtime + str2
+
 	#Run console command with ffmpeg settings.
-	os.system("ffmpeg -loglevel panic -framerate .5 -i %03d.jpg slideshow.mp4 -vf format=yuv420p")
+	os.system(strcomp)
 
 	print("Slideshow created with %d images..." % imgnum)
