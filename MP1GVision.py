@@ -17,11 +17,11 @@ def stringfix(labels):
 	#Go through input labels and combine them into strings.
 	for label in labels:
 		#Limit each string to 40 characters.
-		if ((len(newlabel[linecount]) + len(label.description)) < 39):
-			newlabel[linecount] = newlabel[linecount] + label.description + ", "
+		if ((len(newlabel[linecount]) + len(label)) < 39):
+			newlabel[linecount] = newlabel[linecount] + label + ", "
 		else:
 			linecount = linecount + 1
-			labeln = label.description + ", "
+			labeln = label + ", "
 			newlabel.append(labeln)
 
 	#Stage list to hold fixed lines.
@@ -33,6 +33,14 @@ def stringfix(labels):
 		line = string.capwords(line)
 		print(line)
 		returnlabel.append(line)
+
+	return returnlabel
+
+def toarray(labels):
+	returnlabel = []
+
+	for label in labels:
+		returnlabel.append(label.description)
 
 	return returnlabel
 
@@ -61,7 +69,6 @@ def getlabels(imgstr):
 
 	print('Labels:')
 
-	#Turn individual labels into neat lines.
-	label = stringfix(labels)
+	label = toarray(labels)
 
 	return label

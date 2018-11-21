@@ -20,3 +20,5 @@ Use $ sudo service mongod start
 # Todo
 Move video to ../Videos
 Complete ReadMe
+Add search function
+

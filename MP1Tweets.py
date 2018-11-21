@@ -156,8 +156,9 @@ def retrieve(imageurls, oldimgurls, oldlabels):
             imagenum = imagenum + 1
             #Fix image resolution to 1920x1080
             MP1FFMPEG.resolutionfix(imagestr)
+            label = MP1GVision.stringfix(oldlabels[i])
             #Add labels to image.
-            MP1FFMPEG.stringadd(oldlabels[i], imagestr)
+            MP1FFMPEG.stringadd(label, imagestr)
 
     for image in imageurls:
         #Check for how many zeros to add in front of number.
@@ -181,11 +182,14 @@ def retrieve(imageurls, oldimgurls, oldlabels):
             if labels is 0:
                 return -2
 
+            imglabels.append(labels)
+            #Turn individual labels into neat lines.
+            label = MP1GVision.stringfix(labels)
+
             #Fix image resolution to 1920x1080
             MP1FFMPEG.resolutionfix(imagestr)
             #Add labels to image.
-            MP1FFMPEG.stringadd(labels, imagestr)
-            imglabels.append(labels)
+            MP1FFMPEG.stringadd(label, imagestr)
 
 
     imagenum -= 1
