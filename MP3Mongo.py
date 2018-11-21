@@ -46,3 +46,7 @@ def updatedata(username, lasttweet, imgurllist, taglist):
                                                     'taglist': newtlist}})
 
     return 0
+
+def findstring(string):
+    """Used to return data about a certain tag within the database."""
+    result = db.posts.find({'taglist':{"$elemMatch":{"$elemMatch":{"$in":[string]}}}})
