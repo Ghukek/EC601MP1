@@ -6,12 +6,7 @@ import os
 import MP1Tweets
 import MP1FFMPEG
 
-def main():
-	print("Welcome!")
-
-	# Once I implement the MySQL API, I will make this an option.
-	import MP3Mongo as dbapi
-
+def videocreator():
 	# Get user input for Twitter handle.
 	handle=input('Enter a Twitter Handle: ')
 
@@ -87,4 +82,22 @@ def main():
 	else:
 		postres = dbapi.updatedata(uname, maxtweet, urls, labels)
 
-main()
+def dataanalyzer():
+	print(dbapi.findstring('battleship'))
+
+
+print("Welcome!")
+
+# Once I implement the MySQL API, I will make this an option.
+import MP3Mongo as dbapi
+
+req = str(input("Press N to make a new video. Press A to analyze data: "))
+while True:
+	if (req is "a" or req is "n" or req is "A" or req is "N"):
+		break
+	else:
+		req = str(input("Please input N or A: "))
+if (req is "a" or req is "A"):
+	dataanalyzer()
+else:
+	videocreator()
