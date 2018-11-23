@@ -101,4 +101,6 @@ def jpegtompeg(imgnum, uname):
 	#Run console command with ffmpeg settings.
 	os.system(strcomp)
 
+	os.rename("./" + uname + curtime + ".mp4", "../Videos/" + uname + curtime + ".mp4")
+
 	print("Slideshow created with %d images..." % imgnum)
