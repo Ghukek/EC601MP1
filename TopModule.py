@@ -3,6 +3,7 @@
 
 import tweepy
 import os
+import operator
 import MP1Tweets
 import MP1FFMPEG
 
@@ -83,21 +84,51 @@ def videocreator():
 		postres = dbapi.updatedata(uname, maxtweet, urls, labels)
 
 def dataanalyzer():
-	print(dbapi.findstring('battleship'))
-
+	print("\nPlease enter a search tag.")
+	req = str(input("Press T for tag ranks. Press S to stop: "))
+	while True:
+		if (req is "s" or req is "S"):
+			break
+		elif (req is "d" or req is "D"):
+			num = input("What number of top tags do you want to see? Input a number: ")
+			try:
+				num = int(num)
+				dic = dbapi.findalltags()
+				sorted_dic = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
+				if num > len(sorted_dic):
+					num = len(sorted_dic)
+				for i in range(0, num):
+					print("Tag #%d: ""%s"". Occurances: %d" % (i + 1, sorted_dic[i][0], sorted_dic[i][1]))
+			except ValueError:
+				print("You did not enter a number.")
+			print("\nPlease enter another search tag.")
+			req = str(input("Press T for tag ranks. Press S to stop: "))
+		else:
+			userlist = dbapi.findstring(req)
+			if not userlist:
+				print("Tag not found.")
+			else:
+				print("Users with images containing tag: ")
+				for user in userlist:
+					print(user)
+			print("\nPlease enter another search tag.")
+			req = str(input("Press T for tag ranks. Press S to stop: "))
 
 print("Welcome!")
 
 # Once I implement the MySQL API, I will make this an option.
 import MP3Mongo as dbapi
 
-req = str(input("Press N to make a new video. Press A to analyze data: "))
+req = str(input("\nPress N to make a new video. Press A to analyze data: "))
 while True:
 	if (req is "a" or req is "n" or req is "A" or req is "N"):
 		break
 	else:
 		req = str(input("Please input N or A: "))
+
 if (req is "a" or req is "A"):
 	dataanalyzer()
 else:
 	videocreator()
+
+print("Goodbye!")

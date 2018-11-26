@@ -57,3 +57,21 @@ def findstring(string):
         returnarray.append(user['username'])
 
     return returnarray
+
+def findalltags():
+
+    result = db.posts.find()
+
+    returndic = {}
+
+    for user in result:
+        for image in user['taglist']:
+            for tag in image:
+                if tag not in returndic:
+                    returndic[tag] = 1
+                else:
+                    returndic[tag] = returndic[tag] + 1
+
+    return returndic
+
+
