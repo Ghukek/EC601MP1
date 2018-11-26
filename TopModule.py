@@ -3,6 +3,7 @@
 
 import tweepy
 import os
+import sys
 import operator
 import MP1Tweets
 import MP1FFMPEG
@@ -44,7 +45,7 @@ def videocreator():
 		print("There was an issue authorizing with Twitter, cancelling...")
 		return 1
 	if (urls is 2):
-		print("Could not retrieve tweets, perhaps the account is protected, cancelling...")
+		print("No tweets found. Either account is protected or there are no tweets, cancelling...")
 		return 1
 	if (len(urls) is 0):
 		if lasttweet == -1:
@@ -117,7 +118,17 @@ def dataanalyzer():
 print("Welcome!")
 
 # Once I implement the MySQL API, I will make this an option.
-import MP3Mongo as dbapi
+print("\nPlease choose your database.")
+req = str(input("Press M for MongoDB. Press S for MySQL: "))
+while True:
+	if (req is "M" or req is "m"):
+		import MP3Mongo as dbapi
+		break
+	elif (req is "S" or req is "s"):
+		print("MySQL not implmented, cancelling...")
+		sys.exit(2)
+	else:
+		req = str(input("Please input M or S: "))
 
 req = str(input("\nPress N to make a new video. Press A to analyze data: "))
 while True:
