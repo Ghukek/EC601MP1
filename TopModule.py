@@ -40,17 +40,17 @@ def videocreator():
 	#Error checking results of grab function.
 	if (urls is 1):
 		print("Username doesn't exist, cancelling...")
-		return 1
+		sys.exit(1)
 	if (urls is 0):
 		print("There was an issue authorizing with Twitter, cancelling...")
-		return 1
+		sys.exit(1)
 	if (urls is 2):
 		print("No tweets found. Either account is protected or there are no tweets, cancelling...")
-		return 1
+		sys.exit(1)
 	if (len(urls) is 0):
 		if lasttweet == -1:
 			print("No images found, cancelling...")
-			return 1
+			sys.exit(1)
 		else:
 			conf = str(input("No new images found, do you want to make a new video from old photos? y/n: "))
 			while True:
@@ -61,7 +61,8 @@ def videocreator():
 			if (conf is "y" or conf is "Y"):
 				pass
 			else:
-				return(1)
+				print("No video to create, cancelling...")
+				sys.exit(1)
 
 	#Send image urls to retrieve images.
 	imgres, labels = MP1Tweets.retrieve(urls, oldimgurls, oldlabels)
@@ -69,9 +70,10 @@ def videocreator():
 	#Error checking results of retrieve function.
 	if (imgres == -1):
 		print("./ImageDump folder could not be deleted, cancelling...")
-		return 1
+		sys.exit(1)
 	if (imgres == -2):
 		print("Google Vision API unable to authenticate, cancelling...")
+		sys.exit(1)
 	else:
 		print("Images retrieved successfully...")
 
