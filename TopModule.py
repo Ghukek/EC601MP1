@@ -92,7 +92,7 @@ def dataanalyzer():
 	while True:
 		if (req is "s" or req is "S"):
 			break
-		elif (req is "d" or req is "D"):
+		elif (req is "t" or req is "T"):
 			num = input("What number of top tags do you want to see? Input a number: ")
 			try:
 				num = int(num)
