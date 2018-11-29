@@ -33,19 +33,11 @@ Or use an equivalent method for your operating system.
 # MySQL
 You will need to install and run MySQL on your personal machine.
 
-By default, the program is not expecting to need to use a password and it will be expecting to be running on a localhost. You can change these settings in the file MP3MySQL.py.
+You will need to change the parameters on line 13 in MP3MySQL.py.
 
-Before running, 
+Instructions for stetting up MySQL Python Connector:
 
-$ pip install mysqlclient
-
-make sure to install MySQL. You may also need to run 
-
-$ sudo apt-get install libmysqlclient-dev
-
-Or use an equivalent method for your operating system for installing Python and MySQL development headers and libraries. See https://pypi.org/project/mysqlclient/ for more details.
-
-You will need to create a database. I am using the database name 'miniprojectdb' but you may change that in MP3MySQL.py.
+https://dev.mysql.com/doc/connectors/en/connector-python-obtaining.html
 
 # Files
 
@@ -61,4 +53,5 @@ dataanalyzer() is run when the user selects to analyze data. It calls to the dat
 Complete ReadMe
 Add MySQL api
 Add No Database api
+Add MySQL close out.
 

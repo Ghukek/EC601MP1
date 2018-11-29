@@ -122,8 +122,8 @@ while True:
 		import MP3Mongo as dbapi
 		break
 	elif (req is "S" or req is "s"):
-		print("MySQL not implmented, cancelling...")
-		sys.exit(2)
+		import MP3MySQL as dbapi
+		break
 	else:
 		req = str(input("Please input M or S: "))
 
