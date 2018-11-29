@@ -21,6 +21,8 @@ You will need to install the following Python libraries using $ pip install
 -pymongo
 -mysqlclient (see MySQL instructions)
 
+You will also need to install ffmpeg.
+
 # Mongo
 You will need to install and run Mongo on your personal machine.
 

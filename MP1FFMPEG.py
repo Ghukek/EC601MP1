@@ -101,6 +101,13 @@ def jpegtompeg(imgnum, uname):
 	#Run console command with ffmpeg settings.
 	os.system(strcomp)
 
-	os.rename("./" + uname + curtime + ".mp4", "../Videos/" + uname + curtime + ".mp4")
+	# If FFMPEG is not installed, the previous won't work, but it won't error.
+	# Instead, the error will be caught in the next line.
+
+	try:
+		os.rename("./" + uname + curtime + ".mp4", "../Videos/" + uname + curtime + ".mp4")
+	except FileNotFoundError:
+		print("Video wasn't created, perhaps FFMPEG is not installed?")
+		sys.exit(1)
 
 	print("Slideshow created with %d images..." % imgnum)
