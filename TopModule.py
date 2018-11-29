@@ -139,5 +139,7 @@ if (req is "a" or req is "A"):
 else:
 	videocreator()
 
+ret = dbapi.finishup()
+
 print("Everything completed successfully. Re-run the program if you wish to do more.")
 print("Goodbye!")

@@ -59,15 +59,17 @@ TABLES['users'] = (
     ") ENGINE=InnoDB")
 TABLES['users-images'] = (
     "CREATE TABLE `images` ("
+    "  `image_no` int(11) NOT NULL AUTO_INCREMENT,"
     "  `username` varchar(15) NOT NULL,"
     "  `url` char(60) NOT NULL,"
-    "  PRIMARY KEY (`username`, `url`)"
+    "  PRIMARY KEY (`image_no`)"
     ") ENGINE=InnoDB")
 TABLES['images-tags'] = (
     "CREATE TABLE `tags` ("
+    "  `tag_no` int(11) NOT NULL AUTO_INCREMENT,"
     "  `url` char(60) NOT NULL,"
     "  `tag` char(50) NOT NULL,"
-    "  PRIMARY KEY (`url`, `tag`)"
+    "  PRIMARY KEY (`tag_no`)"
     ") ENGINE=InnoDB")
 
 def create_table(cursor):
@@ -208,4 +210,11 @@ def findalltags():
         else:
             returndic[tag[0]] = returndic[tag[0]] + 1
 
+    cursor.close()
+
     return returndic
+
+def finishup():
+    db.close()
+
+    return 0

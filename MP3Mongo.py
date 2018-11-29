@@ -83,4 +83,8 @@ def findalltags():
 
     return returndic
 
+def finishup():
+    client.close()
+
+    return 0
 
