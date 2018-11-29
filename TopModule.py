@@ -95,6 +95,9 @@ def dataanalyzer():
 				sorted_dic = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
 				if num > len(sorted_dic):
 					num = len(sorted_dic)
+					print("Only %d results found: " % num)
+				if num == 0:
+					print("No results to display.")
 				for i in range(0, num):
 					print("Tag #%d: ""%s"". Occurances: %d" % (i + 1, sorted_dic[i][0], sorted_dic[i][1]))
 			except ValueError:
@@ -116,6 +119,7 @@ print("Welcome!")
 
 # Once I implement the MySQL API, I will make this an option.
 print("\nPlease choose your database.")
+print("You can press N to run without using a database.")
 req = str(input("Press M for MongoDB. Press S for MySQL: "))
 while True:
 	if (req is "M" or req is "m"):
@@ -123,6 +127,9 @@ while True:
 		break
 	elif (req is "S" or req is "s"):
 		import MP3MySQL as dbapi
+		break
+	elif (req is "N" or req is "n"):
+		import MP3NoDB as dbapi
 		break
 	else:
 		req = str(input("Please input M or S: "))

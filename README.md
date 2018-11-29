@@ -51,7 +51,5 @@ dataanalyzer() is run when the user selects to analyze data. It calls to the dat
 
 # Todo
 Complete ReadMe
-Add MySQL api
 Add No Database api
-Add MySQL close out.
 
