@@ -19,6 +19,7 @@ You will need to install the following Python libraries using $ pip install
 -PIL
 -google-cloud-vision
 -pymongo
+-mysqlclient (see MySQL instructions)
 
 # Mongo
 You will need to install and run Mongo on your personal machine.
@@ -30,7 +31,15 @@ Or use an equivalent method for your operating system.
 # MySQL
 You will need to install and run MySQL on your personal machine.
 
-[Insert instructions]
+Before running, 
+
+$ pip install mysqlclient
+
+make sure to install MySQL. You may also need to run 
+
+$ sudo apt-get install libmysqlclient-dev
+
+Or use an equivalent method for your operating system for installing Python and MySQL development headers and libraries. See https://pypi.org/project/mysqlclient/ for more details.
 
 # Files
 

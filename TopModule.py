@@ -1,9 +1,13 @@
 #Copyright 2018 Nathan Wiebe nwiebe@bu.edu
 #EC 601 Mini Project 1 Top Module 
 
-import tweepy
 import os
 import sys
+try:
+	import tweepy
+except ModuleNotFoundError:
+	print("Please run $ pip install tweepy .")
+	sys.exit(1)
 import operator
 import MP1Tweets
 import MP1FFMPEG
@@ -38,15 +42,6 @@ def videocreator():
 	# 'http://pbs.twimg.com/media/CcbOI8aUAAARp3b.jpg']
 
 	#Error checking results of grab function.
-	if (urls is 1):
-		print("Username doesn't exist, cancelling...")
-		sys.exit(1)
-	if (urls is 0):
-		print("There was an issue authorizing with Twitter, cancelling...")
-		sys.exit(1)
-	if (urls is 2):
-		print("No tweets found. Either account is protected or there are no tweets, cancelling...")
-		sys.exit(1)
 	if (len(urls) is 0):
 		if lasttweet == -1:
 			print("No images found, cancelling...")

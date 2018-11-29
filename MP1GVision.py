@@ -3,7 +3,12 @@
 
 import io
 import os
-from google.cloud import vision
+import sys
+try:
+	from google.cloud import vision
+except ModuleNotFoundError:
+	print("Please run $ pip install google-cloud-vision .")
+	sys.exit(1)
 import string
 
 #Take the list of labels and put them into neat lines.

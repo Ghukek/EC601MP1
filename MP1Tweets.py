@@ -29,7 +29,8 @@ def grab(handle, lasttweet):
 	try:
 		api.get_user("@ghukek")
 	except:
-		return(0, 0)
+		print("There was an issue authorizing with Twitter, cancelling...")
+		sys.exit(1)
 
 	print("Checking twitter handle...")
 
@@ -37,7 +38,8 @@ def grab(handle, lasttweet):
 	try:
 		api.get_user(handle)
 	except:
-		return(1, 1)
+		print("Username doesn't exist, cancelling...")
+		sys.exit(1)
 
 	print("Collecting tweets...")
 
@@ -48,7 +50,8 @@ def grab(handle, lasttweet):
 	try:
 		newtweet = api.user_timeline(screen_name=handle, count=1)
 	except:
-		return(2, 2)
+		print("No tweets found. Either account is protected or there are no tweets, cancelling...")
+		sys.exit(1)
 
 	tweetnum = 1
 	dblimgcheck = 0

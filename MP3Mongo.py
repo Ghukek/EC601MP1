@@ -1,7 +1,12 @@
 #Copyright 2018 Nathan Wiebe nwiebe@bu.edu
-#EC 601 Mini Project 1 Google Vision Module
+#EC 601 Mini Project 1 Mongo DB module
 
-from pymongo import MongoClient
+import sys
+try:
+    from pymongo import MongoClient
+except ModuleNotFoundError:
+    print("Please run $ pip install pymongo .")
+    sys.exit(1)
 
 # Establish connection with default Mongo Client.
 client = MongoClient()
@@ -26,7 +31,11 @@ def checkdata(username):
     """Gets the most recent tweet found by the database for given user."""
     # If user is not in database, return -1.
 
-    result = db.posts.find_one({'username': username})
+    try:
+        result = db.posts.find_one({'username': username})
+    except:
+        print("Could not connect to your Mongo Server.")
+        sys.exit(1)
 
     if result:
         return(result['lasttweet'], result['imgurllist'], result['taglist'])
