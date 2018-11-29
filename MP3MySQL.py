@@ -107,6 +107,14 @@ imagequery = ("SELECT url FROM images "
 tagquery = ("SELECT tag FROM tags "
            "WHERE url = %s")
 
+tagqueryneg = ("SELECT url FROM tags "
+           "WHERE tag = %s")
+
+imagequeryneg = ("SELECT username FROM images "
+             "WHERE url = %s")
+
+tagqueryall = ("SELECT tag FROM tags ")
+
 cursor.close()
 
 def postnewdata(username, lasttweet, imgurllist, taglist):
@@ -163,3 +171,41 @@ def updatedata(username, lasttweet, imgurllist, taglist):
             cursor.execute(add_tag, (image, tag))
     db.commit()
     cursor.close()
+
+def findstring(string):
+    """Used to return data about a certain tag within the database."""
+    cursor = db.cursor()
+
+    cursor.execute(tagqueryneg, (string, ))
+
+    urlarray = []
+
+    for url in cursor:
+        urlarray.append(url[0])
+
+    returnarray = []
+
+    for url in urlarray:
+        cursor.execute(imagequeryneg, (url, ))
+        for username in cursor:
+            returnarray.append(username[0])
+
+    cursor.close()
+
+    return returnarray
+
+def findalltags():
+
+    cursor = db.cursor()
+
+    cursor.execute(tagqueryall)
+
+    returndic = {}
+
+    for tag in cursor:
+        if tag[0] not in returndic:
+            returndic[tag[0]] = 1
+        else:
+            returndic[tag[0]] = returndic[tag[0]] + 1
+
+    return returndic
