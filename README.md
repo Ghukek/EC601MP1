@@ -33,6 +33,8 @@ Or use an equivalent method for your operating system.
 # MySQL
 You will need to install and run MySQL on your personal machine.
 
+By default, the program is not expecting to need to use a password and it will be expecting to be running on a localhost. You can change these settings in the file MP3MySQL.py.
+
 Before running, 
 
 $ pip install mysqlclient
@@ -42,6 +44,8 @@ make sure to install MySQL. You may also need to run
 $ sudo apt-get install libmysqlclient-dev
 
 Or use an equivalent method for your operating system for installing Python and MySQL development headers and libraries. See https://pypi.org/project/mysqlclient/ for more details.
+
+You will need to create a database. I am using the database name 'miniprojectdb' but you may change that in MP3MySQL.py.
 
 # Files
 
